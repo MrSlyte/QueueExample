@@ -10,6 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{B5
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csv", "csv", "{67D53394-F275-4EB3-9C4C-B77F26AB62CD}"
+	ProjectSection(SolutionItems) = preProject
+		exemplo.csv = exemplo.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67D53394-F275-4EB3-9C4C-B77F26AB62CD} = {B5D3E0EE-AF6F-415C-9E9D-D51DA54CE673}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8476A84-3C66-488F-BD3D-DB2F6F739413}
