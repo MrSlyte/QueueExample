@@ -1,0 +1,14 @@
+C:\sources\fila\QueueExample\QueueConsole\bin\Debug\net8.0\QueueConsole.exe
+C:\sources\fila\QueueExample\QueueConsole\bin\Debug\net8.0\QueueConsole.deps.json
+C:\sources\fila\QueueExample\QueueConsole\bin\Debug\net8.0\QueueConsole.runtimeconfig.json
+C:\sources\fila\QueueExample\QueueConsole\bin\Debug\net8.0\QueueConsole.dll
+C:\sources\fila\QueueExample\QueueConsole\bin\Debug\net8.0\QueueConsole.pdb
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.AssemblyInfoInputs.cache
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.AssemblyInfo.cs
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.csproj.CoreCompileInputs.cache
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.dll
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\refint\QueueConsole.dll
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.pdb
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\QueueConsole.genruntimeconfig.cache
+C:\sources\fila\QueueExample\QueueConsole\obj\Debug\net8.0\ref\QueueConsole.dll
