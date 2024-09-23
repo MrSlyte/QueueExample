@@ -5,18 +5,19 @@ Console.WriteLine("asasa");
 
 #region Renderizador csv
 
-const string filePath = @"C:\sources\fila\QueueExample";
 
-var csvFile = Directory.GetFiles(filePath, "*.csv");
 
 using var canToken = new CancellationTokenSource();
 
 try
 {
-    var linesCsv = await File.ReadAllLinesAsync(csvFile[0], canToken.Token);
+    var csvFile = Directory.GetFiles($@"{Directory.GetCurrentDirectory()}{Path.DirectorySeparatorChar}csv", "*.csv")[0];
+    Console.WriteLine($"Encontrado o CSV: {csvFile}");
+    var linesCsv = await File.ReadAllLinesAsync(csvFile, canToken.Token);
     var header = linesCsv[0];
     var contentLines = linesCsv.Skip(1);
     var csvExampleModelList = new List<CsvExampleModel>();
+    Console.WriteLine("Obtendo linhas do CSV");
     foreach(var contentLine in contentLines)
     {
         var line = contentLine.Split(',');
@@ -30,10 +31,15 @@ try
             Username = line[3]
         });
     }
-
+    Console.WriteLine($"Finalizado, encontrado {csvExampleModelList.Count} linhas no csv {csvFile}");
+    foreach(var csvLine in csvExampleModelList)
+    {
+        Console.WriteLine($"{csvLine.OwnerName}: {csvLine.QuotaAmount} | {csvLine.StartDate.ToShortDateString()}");
+    }
 }
-catch (Exception)
+catch (Exception ex)
 {
+    Console.WriteLine(ex.ToString());
     await canToken.CancelAsync();
 }
 #endregion

@@ -1,0 +1,4 @@
+services:
+  queueconsole:
+    build:
+      dockerfile: Dockerfile
